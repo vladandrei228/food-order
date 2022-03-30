@@ -1,0 +1,144 @@
+/*
+    Author: Vlad-Andrei Gruia;
+    Theme: Restaurant Food Order Admin;
+    version: 1.0;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid #fff;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #3c40c6;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.btn-primary:hover{
+    background-color: #575fcf;
+}
+
+.btn-secondary{
+    background-color: #05c46b;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.btn-secondary:hover{
+    background-color: #0be881;
+}
+
+.btn-delete{
+    background-color: #ff5e57;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.btn-delete:hover{
+    background-color: #ff3f34;
+}
+
+.success{
+    color: #0be881;
+}
+
+.fail{
+    color: #ff5e57;
+}
+
+
+/* CSS for Footer */
+ .footer{
+     background-color: #1e272e;
+     color: white;
+ }
+
+ /* CSS for Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid #575fcf;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffd32a;
+}
+
+.menu ul li a:hover{
+    color: #575fcf;
+}
+
+/* CSS for main content */
+
+.main-content{
+    background-color: #485460;
+    padding: 3% auto;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for login */
+
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
